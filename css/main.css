@@ -394,6 +394,10 @@ textarea {
   margin-right: -20px;
 }
 
+::selection {
+  background-color: rgb(8, 212, 212);
+}
+
 /* Column block */
 
 [class*="col-"] {
