@@ -2010,6 +2010,23 @@ h6,
   text-rendering: optimizeLegibility;
 }
 
+#name-id {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+#whoami {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+#greeting {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
 h1,
 .h01,
 h2,
