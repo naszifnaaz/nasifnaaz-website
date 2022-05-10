@@ -2909,9 +2909,6 @@ html.no-csstransitions .home-content__main {
   padding: 0 5rem;
 }
 
-.project-desc{
-  text-overflow: hidden !important;
-}
 
 .projects .project .project-img-cont img {
   width: 100%;
@@ -2936,7 +2933,7 @@ html.no-csstransitions .home-content__main {
   }
   .projects .project .project-desc {
     margin-bottom: 125px;
-    padding: 0 4rem;
+    padding: 1rem 4rem;
   }
 }
 
