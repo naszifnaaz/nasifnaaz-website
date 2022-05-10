@@ -1793,6 +1793,12 @@ input::-moz-focus-inner {
   color: #6c6c6c;
 }
 
+#dp{
+  width: 300px;
+  height : 300px;
+  border-radius: 50%;
+}
+
 /* skill bars */
 
 .skill-bars {
@@ -2382,7 +2388,7 @@ input::-moz-focus-inner {
 .home-content__scroll {
   position: absolute;
   left: 0.6rem;
-  bottom: -13.2rem;
+  bottom: -5rem;
 }
 
 .home-content__scroll a {
@@ -2870,15 +2876,20 @@ html.no-csstransitions .home-content__main {
   padding: 5rem 5rem;
 }
 
+.project-demo{
+  color: white;
+}
+
 .projects .project .project-actions .project-btn {
   margin-bottom: 0;
   width: 100%;
   height: unset;
   line-height: unset;
-  padding: 1.6rem;
+  padding: 1rem;
   color: #fff;
   background: #9a2ca0;
   border: none;
+  margin-top: 1rem;
 }
 
 .projects .project .project-img-cont {
@@ -2896,6 +2907,10 @@ html.no-csstransitions .home-content__main {
   margin-bottom: 155px;
   text-align: center;
   padding: 0 5rem;
+}
+
+.project-desc{
+  text-overflow: hidden !important;
 }
 
 .projects .project .project-img-cont img {
